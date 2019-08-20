@@ -92,12 +92,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    ahoy_email (0.5.2)
-      actionmailer
-      activerecord
+    ahoy_email (1.1.0)
+      actionmailer (>= 5)
       addressable (>= 2.3.2)
       nokogiri
-      railties
       safely_block (>= 0.1.1)
     ahoy_matey (3.0.0)
       activesupport (>= 5)
@@ -496,8 +494,8 @@ GEM
       fog-aws (>= 0.9.4)
       mime-types
     safe_yaml (1.0.5)
-    safely_block (0.2.1)
-      errbase
+    safely_block (0.2.2)
+      errbase (>= 0.1.1)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.0.1)
@@ -576,7 +574,7 @@ DEPENDENCIES
   activeadmin (~> 2.2.0)
   activerecord-import (= 1.0.2)
   activerecord-nulldb-adapter
-  ahoy_email (~> 0.5.2)
+  ahoy_email (~> 1.1.0)
   ahoy_matey (~> 3.0.0)
   autoprefixer-rails
   awesome_print
